@@ -1,0 +1,10 @@
+body {
+    background-color: #1C1C1C;
+    margin: 0;
+    min-height: 100vh;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}

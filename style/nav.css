@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    will-change: opacity,visibility;
+    user-select: none;
+    text-align: center;
+    justify-content: space-between;
+    pointer-events: auto;
+    width: 98%;
+    padding: 2em 1em;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: auto;
+}
+
+.logoContainer{
+    width: 29%;
+    height: auto;
+}
+
+.navbar #mainLogo {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar #socials {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socials img{
+    width: 50%;
+    height: auto;
+}
+
+#socials a:last-child img{
+    width: 55%;
+    height: auto;
+}
