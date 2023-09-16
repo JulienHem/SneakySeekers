@@ -1,0 +1,16 @@
+#videoSection {
+    width: 980px;
+    height: 547px;
+    margin: auto;
+}
+
+#videoPlayer{
+    height: 100%;
+    width: 100%;
+}
+
+#videoPlayer > iframe {
+    height: 100%;
+    visibility: inherit;
+    width: 100%;
+}

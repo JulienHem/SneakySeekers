@@ -59,6 +59,7 @@
     align-items: center;
     z-index: 1;
     width: 65%;
+    gap: 1em;
 }
 
 .bigLogoSize > img {
@@ -66,3 +67,33 @@
     height: auto;
 }
 
+#bigLogoButtons {
+    display: flex;
+    gap: 1em;
+}
+
+.btns {
+    padding: 1em 0.7em;
+    min-width: 145px;
+    text-align: center;
+    font-weight: normal;
+    color: #f1f1f1;
+    border: 1px solid rgba(232, 232, 232, 0.80);
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+    background-color: #c30000;
+
+}
+
+.btns:first-child{
+    background: #1C1C1C;
+}
+
+.btns:first-child:hover {
+    background: #3e3e3e;
+}
+
+.btns:hover {
+    background-color: #900000;
+
+}

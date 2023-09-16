@@ -1,0 +1,111 @@
+#mainSection {
+    padding: 2em 1em;
+
+}
+
+#mainSectionText{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainSection h1 {
+    color: #ffff;
+    text-align: center;
+}
+
+#mainSectionText > p {
+    color: #ffff;
+    width: 38%;
+    line-height: 32px;
+}
+
+#gameDetails {
+    padding: 5em 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.leftGameDetails{
+    display: flex;
+    align-items: center;
+}
+
+.leftGameDetails img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgWrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.descWrap{
+    margin-left: 10%;
+    width: 76%;
+}
+
+.leftGameDetailsDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+#toTheLeft{
+    margin-left: 0 !important;
+    margin-right: 10%;
+}
+
+.leftGameDetailsDesc > p {
+    color: #ffff;
+    line-height: 32px;
+    text-align: center;
+}
+
+.rightGameDetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightGameDetailsDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+
+.rightGameDetailsDesc > p {
+    color: #ffff;
+    line-height: 32px;
+    text-align: center;
+}
+
+@media (max-width: 690px) {
+    .leftGameDetails{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftGameDetails img {
+        width: 100%;
+    }
+
+    .descWrap {
+        margin-left: 0;
+    }
+
+    .leftGameDetails:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+}

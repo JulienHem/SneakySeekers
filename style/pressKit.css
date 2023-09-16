@@ -1,0 +1,15 @@
+#pressKitSection{
+    padding: 8em 3em;
+}
+
+#pressKitWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+}
+
+#pressKitWrap > p {
+    color: #ffffff;
+    font-size: 1.5rem;
+}

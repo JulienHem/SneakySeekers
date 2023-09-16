@@ -1,0 +1,8 @@
+.teamSection{
+    display: flex;
+    justify-content: center;
+}
+
+.teamSection > img {
+    width: 25%;
+}
