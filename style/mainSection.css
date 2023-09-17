@@ -23,7 +23,7 @@
 }
 
 #gameDetails {
-    padding: 5em 3em;
+    padding: 3.5vmax 16em 3.5vmax 16em;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -97,6 +97,10 @@
         align-items: center;
     }
 
+    #mainSectionText > p {
+        width: 100%;
+    }
+
     .leftGameDetails img {
         width: 100%;
     }
@@ -107,5 +111,8 @@
 
     .leftGameDetails:nth-child(2) {
         flex-direction: column-reverse;
+    }
+    #gameDetails {
+        padding: 3.5vmax 2em 3.5vmax 2em;
     }
 }

@@ -1,8 +1,89 @@
-.teamSection{
+#teamSection {
     display: flex;
     justify-content: center;
+    padding: 3.5vmax 16em 3.5vmax 16em;
+    flex-direction: column;
+    gap: 2em;
 }
 
-.teamSection > img {
+#teamSectionMain{
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+}
+
+#teamSectionHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+#teamSectionHead > img {
     width: 25%;
+}
+
+#teamSectionHead > p {
+    text-align: center;
+}
+
+#teamSectionHead > span {
+    color: #ffff;
+    line-height: 32px;
+    text-align: center;
+}
+
+.teamSectionMainMember {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 25%;
+}
+
+.teamSectionMainMemberHead{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamSectionMainMemberHeadPic{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.teamSectionMainMemberDesc > span {
+    text-align: center;
+}
+
+.teamSectionMainMemberHeadName{
+    font-weight: bold;
+}
+@media (max-width: 690px) {
+
+    #teamSection {
+        padding: 3.5vmax 2em 3.5vmax 2em;
+    }
+
+    #teamSectionMain{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    #teamSectionHead > img {
+        width: 65%;
+    }
+
+    .teamSectionMainMember{
+        width: auto;
+    }
+
+    .teamSectionMainMemberHead {
+        gap: 1em;
+        align-items: center;
+    }
 }

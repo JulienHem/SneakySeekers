@@ -73,6 +73,9 @@
 }
 
 .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1em 0.7em;
     min-width: 145px;
     text-align: center;

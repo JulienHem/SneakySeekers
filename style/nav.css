@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: relative;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -9,16 +9,18 @@ header {
     justify-content: space-between;
     pointer-events: auto;
     width: 98%;
-    padding: 2em 1em;
 
 }
 
 
 .navbar {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
     height: auto;
+    padding: 2em 1em;
+    width: 100%;
 }
 
 .logoContainer{
