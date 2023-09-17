@@ -61,15 +61,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
 }
 
 #bottomSocialSection > a{
-    width: 65px;
+    display: flex;
+    justify-content: center;
 }
 
-#bottomSocialSection > img{
-    width: 100%;
+#bottomSocialSection >a > img{
+    width: 70%;
     height: auto;
 }
 
